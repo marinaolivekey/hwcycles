@@ -10,7 +10,7 @@ public class ServiceCountVacation {
             //System.out.println(money);
             if (money >= threshold) {
                 count++;
-                money =(money - expenses) / 3;
+                money = (money - expenses) / 3;
 
             } else
                 money = money + income - expenses;
